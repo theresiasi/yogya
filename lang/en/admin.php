@@ -192,7 +192,7 @@ $string['configallowuserswitchrolestheycantassign'] = 'By default, moodle/role:a
 It is recommended that the settings in the "Allow role assignments" table do not allow users to switch to a role with more capabilities than their existing role.';
 $string['configallowuserthemes'] = 'If you enable this, then users will be allowed to set their own themes.  User themes override site themes (but not area themes)';
 $string['configallowview'] = 'For each role in the left column, select which roles that they can view, search and filter by.';
-$string['configallusersaresitestudents'] = 'For activities on the site home, should ALL users be considered as students?  If yes, then anyone with an account will be allowed to participate as a student in these activities.  If no, then only users who are already a employee in at least one area will be able to take part in these activities. Only admins and specially assigned teachers can act as teachers for site home activities.';
+$string['configallusersaresitestudents'] = 'For activities on the site home, should ALL users be considered as employees?  If yes, then anyone with an account will be allowed to participate as a student in these activities.  If no, then only users who are already a employee in at least one area will be able to take part in these activities. Only admins and specially assigned teachers can act as teachers for site home activities.';
 $string['configauthenticationplugins'] = 'Please choose the authentication plugins you wish to use and arrange them in order of failthrough.';
 $string['configautolang'] = 'Detect default language from browser setting, if disabled site default is used.';
 $string['configautolangusercreation'] = 'If enabled, when a user\'s account is created automatically on first login (e.g. using LDAP or OAuth 2 authentication), the user\'s browser language is set as their preferred language. Otherwise, the default language for the site is set as the user\'s preferred language.';
@@ -351,8 +351,8 @@ $string['configproxyfixunsafe_help'] = 'This attempts to fix internal calls whic
 $string['configproxylogunsafe_help'] = 'This attempts to log internal calls which do not go through the proxy and should.';
 $string['configrecaptchaprivatekey'] = 'String of characters (secret key) used to communicate between your Moodle server and the recaptcha server. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
 $string['configrecaptchapublickey'] = 'String of characters (site key) used to display the reCAPTCHA element in the signup form and site support form. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
-$string['configrequestedstudentname'] = 'Word for student used in requested areas';
-$string['configrequestedstudentsname'] = 'Word for students used in requested areas';
+$string['configrequestedstudentname'] = 'Word for employee used in requested areas';
+$string['configrequestedstudentsname'] = 'Word for employee used in requested areas';
 $string['configrequestedteachername'] = 'Word for teacher used in requested areas';
 $string['configrequestedteachersname'] = 'Word for teachers used in requested areas';
 $string['configreverseproxyignore'] = 'If your server is behind multiple reverse proxies that append to the X-Forwarded-For header, then specify a comma-separated list of IP addresses or subnets of the reverse proxies to be ignored in order to find the user\'s correct IP address.';
@@ -376,7 +376,7 @@ $string['configsessiontimeoutwarning'] = 'If people logged in to this site are i
 $string['configsessiontimeoutwarningcheck'] = 'Session timeout warning must be less than session timeout';
 $string['configshowicalsource'] = 'Show source information for iCal events';
 $string['configshowcommentscount'] = 'Show comments count, it will cost one more query when display comments link';
-$string['configshowsiteparticipantslist'] = 'All of these site students and site teachers will be listed on the site employees list. Who shall be allowed to see this site employees list?';
+$string['configshowsiteparticipantslist'] = 'All of these site employees and site teachers will be listed on the site employees list. Who shall be allowed to see this site employees list?';
 $string['configsitedefaultlicense'] = 'Default site licence';
 $string['configsitedefaultlicensehelp'] = 'The default licence for publishing content on this site';
 $string['configsitemailcharset'] = 'This setting specifies the default charset for all emails sent from the site.';
@@ -586,7 +586,7 @@ $string['enableblogs'] = 'Enable blogs';
 $string['enablecalendarexport'] = 'Enable calendar export';
 $string['enablecomments'] = 'Enable comments';
 $string['enablecommunicationsubsystem'] = 'Enable communication providers';
-$string['enablecommunicationsubsystem_desc'] = 'Allow integration with communication providers such as Matrix so teachers and students can communicate more easily. You can manage these integrations in <a href="settings.php?section=managecommunicationproviders">Plugins</a>.';
+$string['enablecommunicationsubsystem_desc'] = 'Allow integration with communication providers such as Matrix so teachers and employees can communicate more easily. You can manage these integrations in <a href="settings.php?section=managecommunicationproviders">Plugins</a>.';
 $string['enablecourserelativedates'] = 'Enable area relative dates';
 $string['enablecourserelativedates_desc'] = 'Allow areas to be set up to display dates relative to the user\'s start date in the area.';
 $string['enablecourserequests'] = 'Enable area requests';
@@ -718,7 +718,7 @@ $string['helpweekenddays'] = 'Which days of the week are treated as "weekend" an
 $string['hiddenuserfields'] = 'Hide user fields';
 $string['hidefromall'] = 'Hide from all users';
 $string['hidefromnone'] = 'Hide from nobody';
-$string['hidefromstudents'] = 'Hide from students';
+$string['hidefromstudents'] = 'Hide from employees';
 $string['hookcallbacks'] = 'Callbacks';
 $string['hookcallbacks_help'] = 'The list of callbacks which will be called when the hook is dispatched.
 
